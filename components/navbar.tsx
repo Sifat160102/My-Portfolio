@@ -41,7 +41,7 @@ export function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-cream/80 backdrop-blur-md border-b border-plum/5">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#about" onClick={handleClick('about')} className="flex items-center gap-3 text-xl font-bold text-plum tracking-tight">
-          <img src="/logo.png" alt="Logo" className="w-10 h-10 rounded-full object-cover" />
+          <img src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/logo.png`} alt="Logo" className="w-10 h-10 rounded-full object-cover" />
           <span>Sifat Sifat</span>
         </a>
         <div className="hidden md:flex items-center gap-8">

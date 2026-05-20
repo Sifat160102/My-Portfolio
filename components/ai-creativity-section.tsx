@@ -20,7 +20,7 @@ export function AICreativitySection() {
           <div className="group overflow-hidden rounded-[2rem] border border-cream/10 shadow-xl shadow-plum/10 hover:shadow-pink/20 transition-all duration-300 bg-[#2b173f]">
             <div className="aspect-[16/9] overflow-hidden">
               <img
-                src="/viral-work-1.png"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/viral-work-1.png`}
                 alt="Viral content work 1"
                 className="h-full w-full object-cover object-center"
                 loading="lazy"
@@ -35,7 +35,7 @@ export function AICreativitySection() {
           <div className="group overflow-hidden rounded-[2rem] border border-cream/10 shadow-xl shadow-plum/10 hover:shadow-pink/20 transition-all duration-300 bg-[#2b173f]">
             <div className="aspect-[16/9] overflow-hidden">
               <img
-                src="/viral-work-2.png"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/viral-work-2.png`}
                 alt="Viral content work 2"
                 className="h-full w-full object-cover object-center"
                 loading="lazy"

@@ -17,7 +17,7 @@ export function VideoSection() {
           {/* Video Card 1 */}
           <div className="group relative bg-sand rounded-2xl overflow-hidden border border-plum/5 hover:border-pink/50 transition-all duration-300 hover:shadow-xl min-h-[420px] md:min-h-[360px] flex items-center justify-center">
             <video
-              src="/video-reel.mp4"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/video-reel.mp4`}
               muted
               autoPlay
               loop
@@ -29,7 +29,7 @@ export function VideoSection() {
           {/* Video Card 2 */}
           <div className="group relative bg-sand rounded-2xl overflow-hidden border border-plum/5 hover:border-pink/50 transition-all duration-300 hover:shadow-xl min-h-[420px] md:min-h-[360px] flex items-center justify-center">
             <video
-              src="/movnew.mp4"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/movnew.mp4`}
               muted
               autoPlay
               loop
