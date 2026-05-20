@@ -29,7 +29,7 @@ export function VideoSection() {
           {/* Video Card 2 */}
           <div className="group relative bg-sand rounded-2xl overflow-hidden border border-plum/5 hover:border-pink/50 transition-all duration-300 hover:shadow-xl min-h-[420px] md:min-h-[360px] flex items-center justify-center">
             <video
-              src="/movie-2.mp4"
+              src="/movnew.mp4"
               muted
               autoPlay
               loop
