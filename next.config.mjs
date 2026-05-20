@@ -4,10 +4,10 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   output: 'export',
-  basePath: '/My-Portfolio',
-  assetPrefix: '/My-Portfolio',
+  basePath: process.env.NODE_ENV === 'production' ? '/My-Portfolio' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/My-Portfolio' : '',
   env: {
-    NEXT_PUBLIC_BASE_PATH: '/My-Portfolio',
+    NEXT_PUBLIC_BASE_PATH: process.env.NODE_ENV === 'production' ? '/My-Portfolio' : '',
   },
   images: {
     unoptimized: true,

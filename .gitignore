@@ -1,0 +1,27 @@
+# v0 sandbox internal files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.v0-trash/
+.vercel/
+
+# Environment variables
+.env*.local
+
+# Common ignores
+node_modules
+.next/
+out/
+package-lock.json
+npm-debug.log*
+yarn-error.log*
+.DS_Store
+.vscode/
+
+# Local media and screenshots that are not part of the site
+My movie 2.mp4
+Shivender & Neha.mp4
+Screenshot*.png
+logo.png
+myimage.JPGpublic/movie-2.mp4
